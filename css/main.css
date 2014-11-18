@@ -1,0 +1,217 @@
+body {
+  position: relative;
+  font-family:Verdana, sans-serif;
+  font-size:14px;
+  margin:20px;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* 
+  Hello Microsoft! 
+  It would be nice if you would
+  default the main element to block.
+  Since you don't we do!
+*/
+main {
+  display:block;
+}
+
+header {
+  background-color:#9aa;
+  border-bottom:1px solid #333;
+  padding:20px;
+}
+
+header h1 {
+  font-size:50px;
+}
+
+section.settings-section {
+  /*margin: 0 0 15px;*/
+  /*padding: 15px 0 15px;*/
+  width: auto;
+  background-color: #AAAAAA;
+}
+
+section.settings-section p {
+  color: #FFFFFF;
+  padding: 5px 0 5px;
+  font-size: 18px;
+  background-color: #000000;
+}
+
+/*section.settings-section input.radio-button{
+  height: 30px;
+  width: 30px;
+}*/
+
+section.settings-section label.radio-button {
+  padding: 0 5px;
+  margin: 0 0 0 -5px;
+}
+
+/*section.settings-section input.build-list-button {
+  display: inline-block;
+  height: 50px;
+  margin: 0 0 0 15px;
+  padding: 0 15px;
+}*/
+
+footer {
+  margin-top:50px;
+  background-color:#000;
+  color:#fff;
+  padding:20px;
+}
+/************************************/
+
+
+.add-to-cart-button {
+  cursor: pointer;
+  text-align: center;
+  margin: 0 0 0 150px;
+  padding: 5px 5px 5px 5px;
+  background-color: #56dbf8;
+  border: 1px solid #109fbe;
+  border-radius: 15px;
+}
+
+.add-to-cart-button:hover {
+  background-color: #76e7ff;
+}
+
+.add-to-cart-button:active {
+  background-color: #d1f7ff;
+}
+
+section.shopping-cart-holder {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+}
+
+div.shopping-cart-button {
+  cursor: pointer;
+  text-align: center;
+  padding: 15px 15px 15px 15px;
+  background-color: #56dbf8;
+  border: 1px solid #109fbe;
+  border-radius: 15px;
+}
+
+div.shopping-cart-button:hover {
+  background-color: #76e7ff;
+}
+
+div.shopping-cart-button:active {
+  background-color: #d1f7ff;
+}
+
+.shopping-cart {
+  display:none;
+  padding: 15px;
+  background-color: #FFFFFF;
+  border:1px solid #000000;
+}
+
+.shopping-cart p {
+  display: inline-block;
+  width: 50px;
+  font-size: 10px;
+}
+
+.top-cart-row, .bottom-cart-row {
+  font-weight: 700;
+}
+
+.shopping-cart p.product-name {
+  width: 100px;
+}
+
+.shopping-cart p.price, .shopping-cart p.amount, .shopping-cart p.sum, .shopping-cart p.total-price {
+  text-align: right;
+}
+
+.shopping-cart p.total-price {
+  float: right;
+  width: auto;
+}
+
+.shopping-cart .top-cart-row {
+  padding: 5px;
+  border-bottom:1px solid #000000;
+}
+
+.shopping-cart .bottom-cart-row {
+  margin: 15px 0 0;
+  padding: 5px;
+  border-top: 1px solid #000000;
+}
+
+
+/*************************************/
+.product-listing {
+  margin:30px;
+}
+
+.product-listing h2 {
+  font-size:30px;
+  margin-bottom:10px;
+}
+
+.product-listing article {
+  padding:10px;
+  background-color:#aca;
+}
+
+.product-listing article:nth-child(odd){
+  background-color:#aac;
+}
+
+.product-listing article span {
+  display:inline-block;
+  width:200px;
+}
+
+.column-price {
+  text-align:right;
+}
+
+.column-description {
+  margin:20px;
+  padding:20px;
+  background-color:#ffe;
+  display:none;
+}
+
+article:hover .column-description {
+  display:block;
+}
+
+.product-column-names {
+  background-color:#333 !important;
+  color:#fff;
+}
+
+.product-column-names span {
+  cursor:pointer;
+}
+
+.product-column-names i {
+  margin-left:10px;
+}
+
+
+

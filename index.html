@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+  <title>Test</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/meyer-reset.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="libs/json-to-table.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <section class="shopping-cart-holder">
+    <div class="shopping-cart-button noselect">
+      <p>
+        Show Shopping Cart
+      </p>
+    </div>
+    <section class="shopping-cart">
+      <section class="top-cart-row">
+        <p class="product-name">
+          Product name
+        </p>
+        <p class="price">
+          Price
+        </p>
+        <p class="amount">
+          Amount
+        </p>
+        <p class="sum">
+          Sum
+        </p>
+      </section>
+
+      <section class="bottom-cart-row">
+        <p class="total-price">
+          Total price: 0
+        </p>
+      </section>
+    </section>
+  </section>
+  
+  <header>
+    <h1>Balla leksaker</h1>
+
+  </header>
+  
+  <main>
+    <section class="product-listing">
+       <h2>Våra produkter</h2>
+       <section class="settings-section">
+          <p>Categories</p>
+       </section>
+
+       <article class="product-column-names">
+
+          <span class="column-name top-column" data-column-name="name">
+            Name
+            <i class="fa fa-chevron-up sort-arrow descending"></i>
+            <i class="fa fa-chevron-down sort-arrow ascending"></i>
+          </span>
+        
+          <span class="column-price top-column" data-column-name="price">
+            Price
+            <i class="fa fa-chevron-up sort-arrow descending"></i>
+            <i class="fa fa-chevron-down sort-arrow ascending"></i>
+          </span>
+       </article>
+    </section>
+  </main>
+  
+  <footer>
+    <p>Adressinfo...</p>
+  </footer>
+
+</body>
+</html>
